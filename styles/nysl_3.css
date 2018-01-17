@@ -1,0 +1,424 @@
+body {
+    font-family: 'Francois One', sans-serif;
+    font-weight: 400;
+    margin: auto;
+    background-color: transparent;
+    background-image: url(/images/background_image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    
+    height: 150px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 800;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background-position: 0 50px;
+    vertical-align: middle;
+    padding-top: 20px;
+    
+}
+
+.logo {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 10%;
+}
+
+.header_2 h2 {
+    text-align: center;
+    
+}
+
+nav {
+    display: inline-block;
+    max-width: 25%;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 8px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+            
+}
+
+nav li {
+    
+    list-style-type: none;
+    
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    vertical-align: middle;
+    transition-duration: 0.4s;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+nav li:hover {
+    background-color: #b6bec6; 
+    cursor: pointer;
+}
+
+nav a,
+nav p {
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 8px;
+    max-width: 150px;
+}
+
+.active {
+    font-weight: 800;
+    background-color: #b6bec6; 
+}
+
+
+.events_content,
+.about_content,
+.contact_information,
+.rules,
+.game_info,
+.reg_form {
+    display: inline-block;
+    padding-left: 16px;
+    margin-top: 16px;
+    max-width: 75%;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.events_content {
+    text-align: center;
+}
+
+.events li{
+    margin-left: 26px;
+    display: inline;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px 4px 4px 20px;
+}
+
+h3 {
+    font-size:18px; 
+    margin: 20px 4px 20px 4px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.about_content p,
+.contact_information p {
+    display: block;
+    margin: 20px 26px 4px 46px;
+    text-align: justify;
+}
+
+.rules h3 {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.square li {
+    list-style-type: square;
+}
+
+.f_f_r > li {
+    font-weight: 600;
+    list-style-type: decimal;
+    padding-bottom: 12px;
+}
+
+.list_item_header {
+    font-weight: 600;
+}
+
+.list_item_content {
+    font-weight: normal;
+}
+
+.abc li {
+    list-style-type: lower-latin;
+    font-weight: normal;
+    
+}
+
+.square_inner li {
+    list-style-type: square;
+}
+
+.decimal li {
+    list-style-type: decimal;
+}
+
+.circle li {
+    list-style-type: circle;
+}
+
+.game_info_september th,
+.game_info_october th {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    width: 25%;
+    padding: 8px;
+    text-align: center;
+}
+
+.game_info_september td,
+.game_info_october td {
+    width: 25%;
+    padding: 4px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.game_locations h3 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    padding: 4px;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+    font-style: normal;
+}
+
+.locations {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.school_name span {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.add_info {
+    max-width: 80%;
+}
+
+.game_locations td {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+    
+}
+
+.game_locations td span {
+    display: block;
+    font-weight: 600;
+}
+
+iframe {
+    width: 400px;
+    height: 150px;
+    border: none;
+}
+
+.email_phone td {
+    width: 50%;
+    height: 40px;
+    text-align: left;
+}
+
+table {
+    padding: 8px;
+    width: 100%;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.add_info p {
+    padding: 8px;
+}
+
+/* This is the styling of the registration form */
+
+.reg_form {
+    text-align: justify;
+    
+}
+
+.reg_form span,
+.permission p {
+    padding: 8px;
+    
+}
+
+h4 {
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-left: 8px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.form_part_1 {
+    display: block;
+    padding-top: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.form_part_1 input,
+.signature_date input {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black; 
+    
+}
+
+.form_part_1 > div,
+.form_part_2 > div,
+.permission > p,
+.permission > div {
+    
+    padding: 4px;
+    margin: 4px;
+    
+}
+
+.line_1,
+.street_address,
+.line_3,
+.parent_guardian,
+.phone_email,
+.birth_date_gender,
+.signature_date {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.flex_input {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.street_address input,
+.parent_guardian input,
+.flex_input input {
+    flex-grow: 1;
+}
+
+.form_part_2 {
+    display: block;
+    width: 100%;
+}
+
+.elementary_school,
+.uniform {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.schools_list,
+.sizes_lists {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.first_closest_school,
+.second_closest_school,
+.jersey_size,
+.shorts_size {
+    display: flex;
+    flex-direction: column;
+    width: 45%
+    
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.column_1,
+.column_2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+}
+
+.position,
+.pref_position {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+        
+}
+
+input[type=submit] {
+    padding: 8px;
+    margin: 8px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;  
+    font-family: 'Francois One', sans-serif;
+    background-color: #cbd4dd;
+}
+
+input[type=text],
+input[type=date] {
+    background-color: transparent;
+    font-size: 14px;
+    padding-left: 8px;
+    font-family: 'Francois One', sans-serif;
+}
+
+.schools {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    align-content: space-around;
+    align-items: flex-start;
+    padding-left: 16px;
+}
+
+select {
+    padding-left: 8px;
+    font-size: 16px;
+    font-family: 'Francois One', sans-serif;
+    background-color: #CBD4DD;
+
+}
+
+.signature_date {
+    padding-left: 16px;
+    box-sizing: border-box;
+}
